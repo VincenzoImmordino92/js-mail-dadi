@@ -1,70 +1,21 @@
-Title
+ js-mail-dadi
 ===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
+- Mail
+Chiedi all’utente la sua email,
+controlla che sia nella lista di chi può accedere,
+stampa un messaggio appropriato sull’esito del controllo.
+- Gioco dei dadi
+Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+Stabilire il vincitore, in base a chi fa il punteggio più alto.
+Prima di partire a scrivere codice poniamoci qualche domanda:
+Che ci sia un array da qualche parte?
+Se dobbiamo confrontare qualcosa che “cosa” ci serve?
+## Processo logico email(da aggiornare)
+1. Chiedere all'utente l'inserimento dell'email utilizzando un input email in html ed assegnandolo alla nostra variabile javascript
+2. Confrontarlo con la nostra array "listaEmail" con l'email inserita dall'utente utilizziando la condizione.
+3. Se l'email è verificata allora puoò accedere stampando la condizione,viceversa stampiamo la condizione contraria.
 
-## Install & Dependence
-- python
-- pytorch
-- numpy
-
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
-
-## Use
-- for train
-  ```
-  python train.py
-  ```
-- for test
-  ```
-  python test.py
-  ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
-
-
-## Directory Hierarchy
-```
-```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 (anaconda)
-  PyTorch: 1.7.1, 1.8.1
-  ```
-- hardware
-  ```
-  CPU: Intel Xeon 6226R
-  GPU: Nvidia RTX3090 (24GB)
-  ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
-## License
-
-## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-```
+## Processo logico dadi(da aggiornare)
+1. creare la variabile random per i dadi da 1 a 6  
+2. Creare le due costanti per il giocatore e per il pc 
+3. creare una condizione per verificare chi vinca tra l'utente e il pc
